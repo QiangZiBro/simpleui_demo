@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*', ]
 INSTALLED_APPS = [
     'simpleui',
     'import_export',
+    'student.apps.StuentConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
